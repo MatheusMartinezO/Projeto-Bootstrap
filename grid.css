@@ -1,0 +1,190 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@font-face {
+    font-family: fonte;
+    src: url('fonts/bootstrap-icons.woff2');
+ }
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+header{
+    min-height: 58;
+}
+img{
+    max-width: 800px;
+    max-height: 600px;
+    height: auto;
+    margin: 0 auto;
+    object-fit: cover;
+}
+form{
+    margin-top: 20px;
+}
+.padding{
+    background-color: #1d1e20;
+    padding: 20px;
+}
+.claro{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.margin{
+    margin: 0 auto;
+}
+i{
+    font-family: fonte;
+}
+progress, .progress {
+    display: inline-block;
+    margin: 4px 0;
+    width: 100%
+  }
+  * {
+    margin: 0;
+    padding: 0
+}
+  
+html {
+    height: 100%
+}
+  
+h2{
+    color: #2F8D46;
+}
+#form {
+    text-align: center;
+    position: relative;
+    margin-top: 20px
+}
+  
+#form fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative
+}
+  
+.finish {
+    text-align: center
+}
+  
+#form fieldset:not(:first-of-type) {
+    display: none
+}
+  
+#form .previous-step, .next-step {
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 0px;
+    float: right
+}
+  
+.form, .previous-step {
+    background: #616161;
+}
+  
+.form, .next-step {
+    background: #2F8D46;
+}
+  
+#form .previous-step:hover,
+#form .previous-step:focus {
+    background-color: #000000
+}
+  
+#form .next-step:hover,
+#form .next-step:focus {
+    background-color: #2F8D46
+}
+  
+.text {
+    color: #2F8D46;
+    font-weight: normal
+}
+  
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey
+}
+  
+#progressbar .active {
+    color: #2F8D46
+}
+  
+#progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 400
+}
+  
+#progressbar #step1:before {
+    content: "1"
+}
+  
+#progressbar #step2:before {
+    content: "2"
+}
+  
+#progressbar #step3:before {
+    content: "3"
+}
+  
+#progressbar #step4:before {
+    content: "4"
+}
+  
+#progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px
+}
+  
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1
+}
+  
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #2F8D46
+}
+  
+.progress {
+    height: 20px
+}
+  
+.progress-bar {
+    background-color: #2F8D46
+}
+@media (max-width:580px) {
+    .arrumar{
+        margin-right: 25px;
+    }
+}
